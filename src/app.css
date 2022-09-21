@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e6e6e6;
+    text-align: center;
+}
+
+.app_main {
+    margin-top: 25em;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.users_container {
+    padding: 30px;
+    background-color: #f1f1f1;
+    border: 2px solid #d8d8d8;
+    box-shadow: 0px 3px 7px 3px #d9d9d9;
+    border-radius: 8px;
+}
+
+.users_container h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.users {
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.users p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
